@@ -23,7 +23,7 @@ I have the followng Uponor controllers and thermometers:
 
 # How its connected
 
-There are two separate controllers at my property, each has 4 thermometers connected to and a set of actuators.
+There are two separate controllers at my property, each has 4-5 thermometers connected to and a set of actuators.
 So I had to create two individual ESPHome devices to hook both controllers to Home Assistant.
 
 First device is running ESP-01 and second running ESP-32. So it is not important which ESP device you choose.
@@ -41,7 +41,8 @@ So you take rs485 module, connect it to UART of ESP device and to A/B data lines
 
 # Example of ESPHome configuration
 
-Copy files from this repo into config/esphome and create a new device yaml file similar to this:
+Copy files from this repo into config/esphome and create a new device yaml file similar to the following.
+Note that device ID's (0x2BBA, 0x73C5, 0x4DC5, etc) are installation specific. Library is logging a lot of stuff, so you can find those from there.
 
 ```yaml
 esphome:
