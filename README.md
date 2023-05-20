@@ -2,6 +2,9 @@
 
 Custom ESPHome component that allows connecting Uponor floor heating to Home Assistant.
 
+![image](https://github.com/jaxer/uponor/assets/202096/57bf9eca-d867-4679-8d18-2524251c8cc0)
+
+
 # Credits
 
 - https://www.eevblog.com/forum/projects/figuring-out-an-rs485-protocol/
