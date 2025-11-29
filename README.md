@@ -1,3 +1,7 @@
+# Discontinued
+
+Please use [integration bundled with ESPHome](https://esphome.io/components/uponor_smatrix/)
+
 # What is this
 
 Custom ESPHome component that allows connecting Uponor floor heating to Home Assistant.
